@@ -23,14 +23,13 @@
         # Telescope
         # chafa 
         # ffmpegthumbnailer 
-	ripgrep
-	fd
+	    ripgrep
+	    fd
 	
 
         # Misc
         wakatime 
-	nerdfonts
-        nvim
+	    nerdfonts
       ];
 
       nvim = pkgs.wrapNeovimUnstable pkgs.neovim-unwrapped
